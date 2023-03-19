@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .content .data--wraper {
+    display: inline-block;
+    width: 48%;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 7px #ccc;
+    margin: 5px;
+  }
+  
+  .content .data--wraper p {
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+  }
